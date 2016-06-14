@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740F7DA6E34D548E9C9F8576 /* libPods-OPskinsAlert-OPskinsAlertUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91382046B744EE3AA10164B2 /* libPods-OPskinsAlert-OPskinsAlertUITests.a */; };
+		9A900B0D1CFE396300E67E05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A900B0C1CFE396300E67E05 /* AppDelegate.m */; };
+		9A900B101CFE396300E67E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A900B0F1CFE396300E67E05 /* main.m */; };
+		9A900B131CFE396300E67E05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A900B121CFE396300E67E05 /* ViewController.m */; };
+		9A900B151CFE396300E67E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A900B141CFE396300E67E05 /* Assets.xcassets */; };
+		9A900B181CFE396300E67E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A900B161CFE396300E67E05 /* Main.storyboard */; };
+		9A900B231CFE396300E67E05 /* OPskinsAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A900B221CFE396300E67E05 /* OPskinsAlertTests.m */; };
+		9A900B2E1CFE396300E67E05 /* OPskinsAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A900B2D1CFE396300E67E05 /* OPskinsAlertUITests.m */; };
+		9ACB02CF1D05CA6600BA26A1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACB02CE1D05CA6600BA26A1 /* AudioToolbox.framework */; };
+		9ACB02D11D05CB8100BA26A1 /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9ACB02D01D05CB8100BA26A1 /* sound.wav */; };
+		9AF61F621D0C5B250010EF9C /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF61F611D0C5B250010EF9C /* Item.m */; };
+		9B0CF5590512B649DD9ECFFD /* libPods-OPskinsAlert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C819BC472B56A051911F673 /* libPods-OPskinsAlert.a */; };
+		CDBF141B6A48229AE4D50333 /* libPods-OPskinsAlert-OPskinsAlertTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C99CA6FA2EEEC2188B136B83 /* libPods-OPskinsAlert-OPskinsAlertTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A900B1F1CFE396300E67E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A900B001CFE396300E67E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A900B071CFE396300E67E05;
+			remoteInfo = OPskinsAlert;
+		};
+		9A900B2A1CFE396300E67E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A900B001CFE396300E67E05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A900B071CFE396300E67E05;
+			remoteInfo = OPskinsAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E679C32522A22F9CF1111A7 /* Pods-OPskinsAlert-OPskinsAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPskinsAlert-OPskinsAlertUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OPskinsAlert-OPskinsAlertUITests/Pods-OPskinsAlert-OPskinsAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2818F7A5A0A7FFC81B6A5A35 /* Pods-OPskinsAlert-OPskinsAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPskinsAlert-OPskinsAlertTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OPskinsAlert-OPskinsAlertTests/Pods-OPskinsAlert-OPskinsAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C819BC472B56A051911F673 /* libPods-OPskinsAlert.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OPskinsAlert.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB3F818839074F33880FBCE /* Pods-OPskinsAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPskinsAlert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OPskinsAlert/Pods-OPskinsAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		91382046B744EE3AA10164B2 /* libPods-OPskinsAlert-OPskinsAlertUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OPskinsAlert-OPskinsAlertUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A900B081CFE396300E67E05 /* OPskinsAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OPskinsAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A900B0B1CFE396300E67E05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A900B0C1CFE396300E67E05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A900B0F1CFE396300E67E05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A900B111CFE396300E67E05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A900B121CFE396300E67E05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A900B141CFE396300E67E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A900B171CFE396300E67E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A900B191CFE396300E67E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A900B1E1CFE396300E67E05 /* OPskinsAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPskinsAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A900B221CFE396300E67E05 /* OPskinsAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPskinsAlertTests.m; sourceTree = "<group>"; };
+		9A900B241CFE396300E67E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A900B291CFE396300E67E05 /* OPskinsAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OPskinsAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A900B2D1CFE396300E67E05 /* OPskinsAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OPskinsAlertUITests.m; sourceTree = "<group>"; };
+		9A900B2F1CFE396300E67E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACB02CE1D05CA6600BA26A1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9ACB02D01D05CB8100BA26A1 /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
+		9AF61F601D0C5B250010EF9C /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		9AF61F611D0C5B250010EF9C /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		C99CA6FA2EEEC2188B136B83 /* libPods-OPskinsAlert-OPskinsAlertTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OPskinsAlert-OPskinsAlertTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E947A1192A76ACE43929375A /* Pods-OPskinsAlert-OPskinsAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPskinsAlert-OPskinsAlertTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OPskinsAlert-OPskinsAlertTests/Pods-OPskinsAlert-OPskinsAlertTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC5B7348E80392C3ABDFE31B /* Pods-OPskinsAlert-OPskinsAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPskinsAlert-OPskinsAlertUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OPskinsAlert-OPskinsAlertUITests/Pods-OPskinsAlert-OPskinsAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBEA2BCCCE5C901DB656F628 /* Pods-OPskinsAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OPskinsAlert.release.xcconfig"; path = "Pods/Target Support Files/Pods-OPskinsAlert/Pods-OPskinsAlert.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A900B051CFE396300E67E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACB02CF1D05CA6600BA26A1 /* AudioToolbox.framework in Frameworks */,
+				9B0CF5590512B649DD9ECFFD /* libPods-OPskinsAlert.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A900B1B1CFE396300E67E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBF141B6A48229AE4D50333 /* libPods-OPskinsAlert-OPskinsAlertTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A900B261CFE396300E67E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740F7DA6E34D548E9C9F8576 /* libPods-OPskinsAlert-OPskinsAlertUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC5A6EEB338B0242BE3607C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3F818839074F33880FBCE /* Pods-OPskinsAlert.debug.xcconfig */,
+				FBEA2BCCCE5C901DB656F628 /* Pods-OPskinsAlert.release.xcconfig */,
+				2818F7A5A0A7FFC81B6A5A35 /* Pods-OPskinsAlert-OPskinsAlertTests.debug.xcconfig */,
+				E947A1192A76ACE43929375A /* Pods-OPskinsAlert-OPskinsAlertTests.release.xcconfig */,
+				0E679C32522A22F9CF1111A7 /* Pods-OPskinsAlert-OPskinsAlertUITests.debug.xcconfig */,
+				EC5B7348E80392C3ABDFE31B /* Pods-OPskinsAlert-OPskinsAlertUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A900AFF1CFE396300E67E05 = {
+			isa = PBXGroup;
+			children = (
+				9A900B0A1CFE396300E67E05 /* OPskinsAlert */,
+				9A900B211CFE396300E67E05 /* OPskinsAlertTests */,
+				9A900B2C1CFE396300E67E05 /* OPskinsAlertUITests */,
+				9A900B091CFE396300E67E05 /* Products */,
+				4AC5A6EEB338B0242BE3607C /* Pods */,
+				AE120A81A5CA98AA17765D41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A900B091CFE396300E67E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A900B081CFE396300E67E05 /* OPskinsAlert.app */,
+				9A900B1E1CFE396300E67E05 /* OPskinsAlertTests.xctest */,
+				9A900B291CFE396300E67E05 /* OPskinsAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A900B0A1CFE396300E67E05 /* OPskinsAlert */ = {
+			isa = PBXGroup;
+			children = (
+				9AF61F601D0C5B250010EF9C /* Item.h */,
+				9AF61F611D0C5B250010EF9C /* Item.m */,
+				9A900B111CFE396300E67E05 /* ViewController.h */,
+				9A900B121CFE396300E67E05 /* ViewController.m */,
+				9A900B141CFE396300E67E05 /* Assets.xcassets */,
+				9A900B0B1CFE396300E67E05 /* AppDelegate.h */,
+				9A900B0C1CFE396300E67E05 /* AppDelegate.m */,
+				9A900B161CFE396300E67E05 /* Main.storyboard */,
+				9A900B191CFE396300E67E05 /* Info.plist */,
+				9ACB02D01D05CB8100BA26A1 /* sound.wav */,
+				9A900B0E1CFE396300E67E05 /* Supporting Files */,
+			);
+			path = OPskinsAlert;
+			sourceTree = "<group>";
+		};
+		9A900B0E1CFE396300E67E05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A900B0F1CFE396300E67E05 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A900B211CFE396300E67E05 /* OPskinsAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A900B221CFE396300E67E05 /* OPskinsAlertTests.m */,
+				9A900B241CFE396300E67E05 /* Info.plist */,
+			);
+			path = OPskinsAlertTests;
+			sourceTree = "<group>";
+		};
+		9A900B2C1CFE396300E67E05 /* OPskinsAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A900B2D1CFE396300E67E05 /* OPskinsAlertUITests.m */,
+				9A900B2F1CFE396300E67E05 /* Info.plist */,
+			);
+			path = OPskinsAlertUITests;
+			sourceTree = "<group>";
+		};
+		AE120A81A5CA98AA17765D41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ACB02CE1D05CA6600BA26A1 /* AudioToolbox.framework */,
+				6C819BC472B56A051911F673 /* libPods-OPskinsAlert.a */,
+				C99CA6FA2EEEC2188B136B83 /* libPods-OPskinsAlert-OPskinsAlertTests.a */,
+				91382046B744EE3AA10164B2 /* libPods-OPskinsAlert-OPskinsAlertUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A900B071CFE396300E67E05 /* OPskinsAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A900B321CFE396300E67E05 /* Build configuration list for PBXNativeTarget "OPskinsAlert" */;
+			buildPhases = (
+				160A00617F0AA32BE7D4E850 /* 📦 Check Pods Manifest.lock */,
+				9A900B041CFE396300E67E05 /* Sources */,
+				9A900B051CFE396300E67E05 /* Frameworks */,
+				9A900B061CFE396300E67E05 /* Resources */,
+				C36D7C053E9856EDA99C0049 /* 📦 Embed Pods Frameworks */,
+				958A091DA6D4D5346089BB03 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OPskinsAlert;
+			productName = OPskinsAlert;
+			productReference = 9A900B081CFE396300E67E05 /* OPskinsAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A900B1D1CFE396300E67E05 /* OPskinsAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A900B351CFE396300E67E05 /* Build configuration list for PBXNativeTarget "OPskinsAlertTests" */;
+			buildPhases = (
+				C36DABB1ACF503DEE4FB0962 /* 📦 Check Pods Manifest.lock */,
+				9A900B1A1CFE396300E67E05 /* Sources */,
+				9A900B1B1CFE396300E67E05 /* Frameworks */,
+				9A900B1C1CFE396300E67E05 /* Resources */,
+				7291ADCC5A56B21447315173 /* 📦 Embed Pods Frameworks */,
+				C0E7DE6C4F0BAF43FE590408 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A900B201CFE396300E67E05 /* PBXTargetDependency */,
+			);
+			name = OPskinsAlertTests;
+			productName = OPskinsAlertTests;
+			productReference = 9A900B1E1CFE396300E67E05 /* OPskinsAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A900B281CFE396300E67E05 /* OPskinsAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A900B381CFE396300E67E05 /* Build configuration list for PBXNativeTarget "OPskinsAlertUITests" */;
+			buildPhases = (
+				CC65C5323B8C7C0DF1D7E14B /* 📦 Check Pods Manifest.lock */,
+				9A900B251CFE396300E67E05 /* Sources */,
+				9A900B261CFE396300E67E05 /* Frameworks */,
+				9A900B271CFE396300E67E05 /* Resources */,
+				9AE73CF03604A90801660862 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A900B2B1CFE396300E67E05 /* PBXTargetDependency */,
+			);
+			name = OPskinsAlertUITests;
+			productName = OPskinsAlertUITests;
+			productReference = 9A900B291CFE396300E67E05 /* OPskinsAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A900B001CFE396300E67E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Nikolay Berlioz";
+				TargetAttributes = {
+					9A900B071CFE396300E67E05 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9A900B1D1CFE396300E67E05 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9A900B071CFE396300E67E05;
+					};
+					9A900B281CFE396300E67E05 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9A900B071CFE396300E67E05;
+					};
+				};
+			};
+			buildConfigurationList = 9A900B031CFE396300E67E05 /* Build configuration list for PBXProject "OPskinsAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A900AFF1CFE396300E67E05;
+			productRefGroup = 9A900B091CFE396300E67E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A900B071CFE396300E67E05 /* OPskinsAlert */,
+				9A900B1D1CFE396300E67E05 /* OPskinsAlertTests */,
+				9A900B281CFE396300E67E05 /* OPskinsAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A900B061CFE396300E67E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A900B151CFE396300E67E05 /* Assets.xcassets in Resources */,
+				9ACB02D11D05CB8100BA26A1 /* sound.wav in Resources */,
+				9A900B181CFE396300E67E05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A900B1C1CFE396300E67E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A900B271CFE396300E67E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160A00617F0AA32BE7D4E850 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7291ADCC5A56B21447315173 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OPskinsAlert-OPskinsAlertTests/Pods-OPskinsAlert-OPskinsAlertTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		958A091DA6D4D5346089BB03 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OPskinsAlert/Pods-OPskinsAlert-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE73CF03604A90801660862 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OPskinsAlert-OPskinsAlertUITests/Pods-OPskinsAlert-OPskinsAlertUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E7DE6C4F0BAF43FE590408 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OPskinsAlert-OPskinsAlertTests/Pods-OPskinsAlert-OPskinsAlertTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36D7C053E9856EDA99C0049 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OPskinsAlert/Pods-OPskinsAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36DABB1ACF503DEE4FB0962 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC65C5323B8C7C0DF1D7E14B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A900B041CFE396300E67E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF61F621D0C5B250010EF9C /* Item.m in Sources */,
+				9A900B131CFE396300E67E05 /* ViewController.m in Sources */,
+				9A900B101CFE396300E67E05 /* main.m in Sources */,
+				9A900B0D1CFE396300E67E05 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A900B1A1CFE396300E67E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A900B231CFE396300E67E05 /* OPskinsAlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A900B251CFE396300E67E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A900B2E1CFE396300E67E05 /* OPskinsAlertUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A900B201CFE396300E67E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A900B071CFE396300E67E05 /* OPskinsAlert */;
+			targetProxy = 9A900B1F1CFE396300E67E05 /* PBXContainerItemProxy */;
+		};
+		9A900B2B1CFE396300E67E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A900B071CFE396300E67E05 /* OPskinsAlert */;
+			targetProxy = 9A900B2A1CFE396300E67E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A900B161CFE396300E67E05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A900B171CFE396300E67E05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A900B301CFE396300E67E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9A900B311CFE396300E67E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9A900B331CFE396300E67E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB3F818839074F33880FBCE /* Pods-OPskinsAlert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OPskinsAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.OPskinsAlert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A900B341CFE396300E67E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBEA2BCCCE5C901DB656F628 /* Pods-OPskinsAlert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OPskinsAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.OPskinsAlert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A900B361CFE396300E67E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2818F7A5A0A7FFC81B6A5A35 /* Pods-OPskinsAlert-OPskinsAlertTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OPskinsAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.OPskinsAlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OPskinsAlert.app/Contents/MacOS/OPskinsAlert";
+			};
+			name = Debug;
+		};
+		9A900B371CFE396300E67E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E947A1192A76ACE43929375A /* Pods-OPskinsAlert-OPskinsAlertTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OPskinsAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.OPskinsAlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OPskinsAlert.app/Contents/MacOS/OPskinsAlert";
+			};
+			name = Release;
+		};
+		9A900B391CFE396300E67E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E679C32522A22F9CF1111A7 /* Pods-OPskinsAlert-OPskinsAlertUITests.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OPskinsAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.OPskinsAlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OPskinsAlert;
+			};
+			name = Debug;
+		};
+		9A900B3A1CFE396300E67E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5B7348E80392C3ABDFE31B /* Pods-OPskinsAlert-OPskinsAlertUITests.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = OPskinsAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Devil-Academy.OPskinsAlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OPskinsAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A900B031CFE396300E67E05 /* Build configuration list for PBXProject "OPskinsAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A900B301CFE396300E67E05 /* Debug */,
+				9A900B311CFE396300E67E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A900B321CFE396300E67E05 /* Build configuration list for PBXNativeTarget "OPskinsAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A900B331CFE396300E67E05 /* Debug */,
+				9A900B341CFE396300E67E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A900B351CFE396300E67E05 /* Build configuration list for PBXNativeTarget "OPskinsAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A900B361CFE396300E67E05 /* Debug */,
+				9A900B371CFE396300E67E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A900B381CFE396300E67E05 /* Build configuration list for PBXNativeTarget "OPskinsAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A900B391CFE396300E67E05 /* Debug */,
+				9A900B3A1CFE396300E67E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A900B001CFE396300E67E05 /* Project object */;
+}

@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :osx, '10.9'
+
+target 'OPskinsAlert' do
+  pod 'AFNetworking', '~> 3.0'
+
+  target 'OPskinsAlertTests' do
+  end
+
+  target 'OPskinsAlertUITests' do
+  end
+
+end
